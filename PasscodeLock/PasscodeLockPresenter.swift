@@ -64,7 +64,7 @@ public class PasscodeLockPresenter {
         guard !isPasscodePresented else { return }
         
         isPasscodePresented = true
-        passcodeLockWindow.windowLevel = 2
+        passcodeLockWindow.windowLevel = 3
         
         toggleKeyboardVisibility(hide: true)
         
